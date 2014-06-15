@@ -1,4 +1,4 @@
-# документация по underscore.js
+# документация по underscore.js (**1.6.0**)
 в формате словаря apple dictionary -- стандартного словаря в системе mac os x
 
 # конвертация
@@ -7,9 +7,9 @@
 * набрать `make` и нажать enter
 
 # установка
-* при использовании команды make (из предыдущего раздела) словарь автоматически установится.
+* при использовании команды `make` (из предыдущего раздела) словарь автоматически установится.
 * или
-* переместить пакет final/underscore/objects/underscore.dictionary в папку ~/Library/Doctionaries
+* переместить пакет `final/underscore/objects/underscore.dictionary` в папку `~/Library/Doctionaries`
 
 # underscorejs.org
-папка underscorejs.org -- это клон официального сайта underscore. его можно скачать с помощью команды `wget -k -E -L -r -l 1 http://underscorejs.org/`
+папка `underscorejs.org` -- это клон официального сайта underscore. его можно скачать с помощью команды `wget -k -E -L -r -l 1 http://underscorejs.org/`
