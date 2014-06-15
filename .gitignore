@@ -1,0 +1,5 @@
+# python байткод
+*.pyc
+
+# временный файл
+underscore.xml
