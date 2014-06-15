@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	line-height: 1.5em;
+	background: #f4f4f4 url(Images/background.png);
+	color: #000;
+}
+h1 {
+	display: none;
+}
+a.toc_title, a.toc_title:visited {
+	display: block;
+	color: black;
+	font-weight: bold;
+	margin-top: 15px;
+}
+a.toc_title:hover {
+	text-decoration: underline;
+}
+#sidebar .version {
+	font-size: 8pt;
+	font-weight: normal;
+}
+ul.toc_section {
+	font-size: 8pt;
+	line-height: 1.2em;
+	margin: 5px 0 0 0;
+	padding-left: 0px;
+	list-style-type: none;
+	font-family: 'Lucida Grande' !important;
+}
+.toc_section li {
+	cursor: pointer;
+	margin: 0 0 3px 0;
+}
+.toc_section li a {
+	text-decoration: none;
+	color: black;
+}
+.toc_section li a:hover {
+	text-decoration: underline;
+}
+img#logo {
+	width: 96%;
+	/*width: 396px;*/
+	/*height: 69px;*/
+}
+p {
+	margin: 0 0 20px 0;
+	/*width: 550px;*/
+}
+a, a:visited {
+	color: #444;
+}
+a:active, a:hover {
+	color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding-top: 20px;
+}
+h2 {
+	font-size: 12pt;
+}
+b.header {
+	font-size: 11pt;
+	line-height: 2em;
+}
+span.alias {
+	font-size: 10pt;
+	font-style: italic;
+	margin-left: 20px;
+}
+table, tr, td {
+	margin: 0; padding: 0;
+}
+td {
+	padding: 2px 12px 2px 0;
+}
+table .rule {
+	height: 1px;
+	background: #ccc;
+	margin: 5px 0;
+}
+ul {
+	list-style-type: circle;
+	padding: 0 0 0 20px;
+}
+li {
+	margin-bottom: 10px;
+}
+code, pre, tt {
+	font-family: Monaco, "Lucida Console", monospace !important;
+	font-size: 9pt;
+	line-height: 1.5em;
+	font-style: normal;
+}
+tt {
+	padding: 0px 3px;
+	background: #fff;
+	border: 1px solid #ddd;
+	zoom: 1;
+}
+code {
+	margin-left: 20px;
+}
+pre {
+	font-size: 9pt;
+	padding: 2px 0 2px 15px;
+	border-left: 5px solid #bbb;
+	margin: 0px 0 30px;
+	overflow: scroll;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 640px),
+only screen and (-o-min-device-pixel-ratio: 3/2) and (max-width: 640px),
+only screen and (min-device-pixel-ratio: 1.5) and (max-width: 640px) {
+	img {
+		max-width: 100%;
+	}
+	div#sidebar {
+		-webkit-overflow-scrolling: initial;
+		position: relative;
+		width: 90%;
+		height: 120px;
+		left: 0;
+		top: -7px;
+		padding: 10px 0 10px 30px;
+		border: 0;
+	}
+	img#logo {
+		width: auto;
+		height: auto;
+	}
+	div.container {
+		margin: 0;
+		width: 100%;
+	}
+	p, div.container ul {
+		max-width: 98%;
+		overflow-x: scroll;
+	}
+	pre {
+		overflow: scroll;
+	}
+}
+
+
